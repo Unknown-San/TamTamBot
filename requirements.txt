@@ -1,2 +1,5 @@
 https://github.com/uwinx/tamtam.py/archive/master.zip
 contextvars
+ujson
+pydantic
+aiohttp
