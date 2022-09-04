@@ -12,7 +12,7 @@ disp = Dispatcher(bot)
 
 @disp.message_handler(MessageFilters.commands("start"))
 async def start(message: Message):
-    await message.respond(f"Hello {message.sender.name}.")
+    await message.respond(f"Hello {message.sender.name}. This Is Bot of @Aogiri_Network")
 
 
 @disp.message_handler()
